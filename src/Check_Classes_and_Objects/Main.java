@@ -1,4 +1,4 @@
-package Check_Classes_and_Objects;
+package Check_Classes_and_Objects;//некорректное именование пакета. четыре уровня, нижний регистр, отсутствие множественного числа
 
 import java.util.Arrays;
 import java.util.List;
