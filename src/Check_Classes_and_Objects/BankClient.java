@@ -4,7 +4,7 @@ package Check_Classes_and_Objects;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BankClient {
+public class BankClient {// Смотри, если ты для Account определила equals, hashCode, toString, т для этого класса тоже следует - он же данные содержит
 
     private List<Account> accounts;
 
