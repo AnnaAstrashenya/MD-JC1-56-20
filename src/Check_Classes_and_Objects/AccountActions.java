@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class AccountActions {
+public class AccountActions {// классы не именуем множественным числом
 
     public Account searchAccount(List<Account> clientAccounts, long countNumber) {
         Account result = new Account();
@@ -65,7 +65,7 @@ public class AccountActions {
 
 
 
-    public void printInfoAboutAccount(String message, Account account) {
+    public void printInfoAboutAccount(String message, Account account) {// действия по вводу-выводу лучше отделять, от действий логики. Т.е. перенести их в другой класс для начала.
         System.out.println(message);
         System.out.println("Счет: " + account.getCountNumber());
         System.out.println("Валюта счета: " + account.getCurrency());
